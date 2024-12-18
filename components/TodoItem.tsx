@@ -78,7 +78,7 @@ const TodoItem = ({
           </span>
         ) : (
           <span
-            className="rounded-full !border-2 !border-[#4EA8DE] h-[17.45px] w-[17.45px] mt-[3px] cursor-pointer"
+            className="rounded-full !border-2 !border-[#4EA8DE] h-[17.45px] md:h-[17.45px] w-[17.45px] md:w-[17.45px] mt-[3px] cursor-pointer"
             onClick={(e) => {
               e.stopPropagation();
 
@@ -95,8 +95,8 @@ const TodoItem = ({
         <p
           className={
             isCompleted
-              ? `text-[13px] text-[#F2F2F2] line-through`
-              : `text-[13px] text-[#F2F2F2]`
+              ? `text-[13px] text-[#F2F2F2] truncate line-through`
+              : `text-[13px] text-[#F2F2F2] truncate`
           }
           style={{ color: color || "#F2F2F2" }}
         >
