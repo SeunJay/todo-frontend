@@ -62,7 +62,7 @@ const UpdateTodo = () => {
     }
   };
   return (
-    <div className="flex flex-col mt-[60px] lg:mt-[100px] w-[92%] md:w-[420px] lg:w-[736px] mx-auto h-auto md:h-[358px]">
+    <div className="flex flex-col mt-[60px] lg:mt-[100px] w-[92%] md:w-[600px] lg:w-[736px] mx-auto h-auto md:h-[358px]">
       <Link href={"/"}>
         <Image
           src={"/assets/arrow-left.png"}

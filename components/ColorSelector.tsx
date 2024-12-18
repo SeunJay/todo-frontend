@@ -19,8 +19,8 @@ const ColorSelector = ({ label, colors, color, handleSelectColor }: Props) => {
           <span
             className={
               color === bgColor
-                ? `h-[30px] md:h-[52px] w-[30px] md:w-[52px] rounded-full !border-2 !border-[#fff] cursor-pointer`
-                : `h-[30px] md:h-[52px] w-[30px] md:w-[52px] rounded-full cursor-pointer`
+                ? `h-[25px] md:h-[52px] w-[25px] md:w-[52px] rounded-full !border-2 !border-[#fff] cursor-pointer`
+                : `h-[25px] md:h-[52px] w-[25px] md:w-[52px] rounded-full cursor-pointer`
             }
             style={{ backgroundColor: bgColor }}
             key={i}
